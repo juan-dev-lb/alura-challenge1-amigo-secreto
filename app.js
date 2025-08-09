@@ -31,3 +31,18 @@ function listarAmigos(){
         ulLista.appendChild(li);
     }
 }
+
+function sortearAmigo(){
+    let numeroRandom = Math.floor(Math.random() * amigos.length);
+    let ulResultado = document.getElementById('resultado');
+    ulResultado.innerHTML = "";
+
+    if(amigos.length === 0){
+        alert('Ingresa amigos e intenta nuevamente!');
+        return;
+    }
+
+    let li = document.createElement('li');
+    li.textContent = "Amigo sorteado: " + amigos[numeroRandom];
+    ulResultado.appendChild(li);
+}
