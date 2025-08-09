@@ -1,7 +1,9 @@
 Alura - solución reto 1: amigo secreto.
 <h1>Challenge 1: Amigo Secreto</h1>
 <br>
-![Badge en Desarollo](https://img.shields.io/badge/STATUS-FINALIZADO-green)
+<p align="left">
+  <img src="https://img.shields.io/badge/FINALIZADO-green">
+</p>
 <p>La solución planteada al desafío relacionado, hace parte de la ruta de aprendizaje en el programa <strong>Principiante en Programación G9 - ONE</strong>. </p>
 <br>
 <p>Herramienta para la gestión del proyecto (Trello): https://trello.com/b/v0TFbgqP/trello-challenge-amigo-secreto-esp</p>
