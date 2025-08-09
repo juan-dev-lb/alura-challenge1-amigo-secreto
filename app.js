@@ -16,10 +16,18 @@ function agregarAmigo(){
     } else {
         amigos.push(nombreFiltrado);
         alert('Amigo ingresado con éxito: ' + nombreFiltrado);
+        listarAmigos();
         return;
     }
 }
 
 function listarAmigos(){
     let ulLista = document.getElementById('listaAmigos');
+    ulLista.innerHTML = "";
+
+    for (i=0 ; i<amigos.length ; i++){
+        let li = document.createElement('li');
+        li.textContent = amigos[i];
+        ulLista.appendChild(li);
+    }
 }
